@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "node app.js",
-    "test": "nyc --reporter=html mocha --exit"
+    "test": "mocha --exit"
   },
   "devDependencies": {
     "mocha": "^11.7.5",
